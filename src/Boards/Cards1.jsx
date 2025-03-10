@@ -43,15 +43,26 @@ const LogisticsServices = () => {
     setVisibleContent((prev) => (prev === id ? null : id));
   };
 
-  // Mobile card component
+  // Mobile card component with animation
   const MobileServiceCard = ({ service }) => (
-    <div className="bg-white p-4 flex flex-col items-center shadow-md rounded-lg">
-      <img
-        src={service.icon}
-        alt={service.title}
-        className="w-16 h-16 object-contain mx-auto mb-2"
-      />
-      <h3 className="text-sm font-semibold text-center">{service.title}</h3>
+    <div
+      className="bg-white p-4 flex flex-col items-center shadow-md rounded-lg cursor-pointer transition-all duration-300 h-full"
+      onClick={() => toggleContent(service.id)}
+    >
+      <div className={`w-full transition-opacity duration-500 ${visibleContent === service.id ? 'opacity-0 h-0' : 'opacity-100'}`}>
+        <img
+          src={service.icon}
+          alt={service.title}
+          className="w-16 h-20 object-contain mx-auto mb-2"
+        />
+        <h3 className="text-sm font-semibold text-center">{service.title}</h3>
+      </div>
+
+      <div
+        className={`w-full text-center transition-opacity duration-500 flex items-center justify-center ${visibleContent === service.id ? 'opacity-100 h-full' : 'opacity-0 h-0 overflow-hidden'}`}
+      >
+        <p className="text-black text-[11px]">{service.description}</p>
+      </div>
     </div>
   );
 
@@ -87,14 +98,14 @@ const LogisticsServices = () => {
           </h2>
           <div className="flex flex-row">
             <div className="h-28 w-0.5 bg-yellow-500 mx-4 hidden md:block"></div>
-            <p className="text-gray-500 text-base md:text-lg mt-2 md:w-[550px] text-center md:text-left hidden md:flex">
+            <p className="text-gray-500 text-base md:text-lg mt-2 md:w-[550px] text-center md:text-left">
               With a vast global network, we specialize in import/export services, customs clearance, and full GCC coverage, making international shipping effortless.
             </p>
           </div>
         </div>
         
         {isMobile ? (
-          // Mobile Layout - 2 column grid
+          // Mobile Layout - 2 column grid with animations
           <div className="grid grid-cols-2 gap-4 w-full">
             {services.map((service) => (
               <MobileServiceCard key={service.id} service={service} />
