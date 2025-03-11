@@ -25,7 +25,7 @@ const PlansForm = () => {
   };
 
   return (
-    <div className="bg-white lg:py-12 px-4 max-w-6xl mx-auto">
+    <div className="bg-white lg:py-12 px-4 max-w-6xl mx-auto md:hidden">
       <div className="container mx-auto flex flex-col md:flex-row items-start gap-8">
         {/* Contact Form */}
         <div className="w-full md:w-1/2 max-sm:text-center">
@@ -41,7 +41,7 @@ const PlansForm = () => {
             hassle-free cargo management.
           </p>
 
-          <form
+          <form 
             onSubmit={handleSubmit}
             className="space-y-6 p-6 lg:p-0 max-sm:text-left"
           >

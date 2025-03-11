@@ -3,7 +3,7 @@ import deliveryIllustration from "../assets/Delivery.png";
 
 const DeliverySuccessRate = () => {
   return (
-    <div className="bg-[#F9D50B] py-16 px-4 relative overflow-hidden hidden md:block">
+    <div className="bg-[#F9D50B] py-16 px-4 relative overflow-hidden hidden md:hidden">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between">
           {/* Left side - Text content */}

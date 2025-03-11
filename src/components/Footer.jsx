@@ -16,6 +16,7 @@ const Footer = () => {
           </p>
 
           {/* Upward Arrow Button */}
+          <a href="tel:+971506446940">
           <button className="bg-white rounded-full w-6 h-6 md:w-12 md:h-12 lg:w-14 lg:h-14 flex items-center justify-center hover:bg-gray-200 transition-colors">
             <img
               src={vector}
@@ -23,6 +24,7 @@ const Footer = () => {
               className="w-3 md:w-8 lg:w-8"
             />
           </button>
+          </a>
         </div>
       </div>
     </footer>

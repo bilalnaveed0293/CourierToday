@@ -9,9 +9,11 @@ const CallToAction = () => {
           <h2 className="text-4xl md:text-5xl font-semibold mb-8 text-white max-w-md">
             Talk to a member of our sales team.
           </h2>
+          <a href="tel:+971506448596">
           <button className="bg-[#00A3E0] hover:bg-[#0093CC] text-white font-semibold py-4 px-12 rounded-md text-xl transition-colors">
             CALL NOW
           </button>
+          </a>
         </div>
 
         {/* Support Team Section */}
@@ -19,9 +21,11 @@ const CallToAction = () => {
           <h2 className="text-4xl md:text-5xl font-semibold mb-8 text-white max-w-md">
             Talk to our customer support team.
           </h2>
+          <a href="tel:+971506448524 ">
           <button className="bg-[#00A3E0] hover:bg-[#0093CC] text-white font-semibold py-4 px-12 rounded-md text-xl transition-colors">
             CALL NOW
           </button>
+          </a>
         </div>
       </div>
     </div>

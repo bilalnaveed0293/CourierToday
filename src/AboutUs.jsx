@@ -35,7 +35,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <div className="bg-gray-50 lg:bg-white lg:min-h-screen p-6 lg:py-12 max-w-6xl mx-auto">
+    <div className="bg-gray-50 lg:bg-white lg:min-h-screen p-6 lg:py-12 max-w-6xl mx-auto md:hidden">
       <img
         src={decor2}
         alt="Decorative element"

@@ -33,7 +33,7 @@ const ServiceOptions = () => {
   ];
 
   return (
-    <div className="bg-white py-12 px-4 md:px-8 hidden lg:block">
+    <div className="bg-white py-12 px-4 md:px-8 md:hidden hidden">
       <div className="container mx-auto">
         {/* Headline and Description */}
         <div className="mb-8 ">
