@@ -94,7 +94,7 @@ const LogisticsServices = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-around mb-8 md:mb-12 px-2 md:px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-black leading-tight max-w-[450px] mb-4 md:mb-0 text-center md:text-left">
-            Experience stress-free logistics!
+            Experience stress-free Shopping/Courier Service!
           </h2>
           <div className="flex flex-row">
             <div className="h-28 w-0.5 bg-yellow-500 mx-4 hidden md:block"></div>

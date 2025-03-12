@@ -25,7 +25,7 @@ const PlansForm = () => {
   };
 
   return (
-    <div className="bg-white lg:py-12 px-4 max-w-6xl mx-auto md:hidden">
+    <div className="bg-white lg:py-12 px-4 max-w-6xl mx-auto md:hidden hidden md:block">
       <div className="container mx-auto flex flex-col md:flex-row items-start gap-8">
         {/* Contact Form */}
         <div className="w-full md:w-1/2 max-sm:text-center">

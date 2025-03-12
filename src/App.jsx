@@ -17,6 +17,7 @@ function App() {
     <div>
       <Navbar />
       <World />
+      
       <Cards1 />
       <CallToAction />
       <Process />

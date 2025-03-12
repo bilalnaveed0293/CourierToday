@@ -110,7 +110,7 @@ const AboutUs = () => {
         </div>
 
         {/* About Us Section */}
-        <div className="text-center p-4 md:p-0">
+        <div className="text-center p-4 md:p-0 hidden md:block">
           <h1 className="text-4xl md:text-5xl font-bold text-black mb-6 hidden md:block">
             About Us
           </h1>

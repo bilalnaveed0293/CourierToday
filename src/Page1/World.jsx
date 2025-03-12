@@ -10,13 +10,13 @@ const World = () => {
         {/* Left side: Text content */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0 relative">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-6 ">
-            <span className="text-yellow-400 ">Seamless</span> <span>Logistics</span>
+            <span className="text-yellow-400 ">Seamless</span> <span>Cargo Shipping/Courier Service</span>
             <br />
             Anywhere <span className="text-yellow-400">in the</span>
             <br />
             <span className="text-yellow-400">World</span>
           </h1>
-          <p className="text-[#787878] mb-8 text-base md:text-[15px] max-w-xl">
+          <p className="text-[#787878] mb-8 text-base md:text-[15px] max-w-xl hidden md:block">
             At Courier Today by Goodwill Cargo, we specialize in fast, secure,{" "}
             and cost-effective logistics solutions tailored to your needs. With
             a 
@@ -37,6 +37,9 @@ const World = () => {
       <div className="">
         <Service />
       </div>
+      <div className="bg-[#F9D50B] text-black text-center py-6 text-2xl font-bold md:hidden">
+      SERVICES
+    </div>
     </div>
   );
 };

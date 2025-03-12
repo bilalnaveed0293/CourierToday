@@ -2,7 +2,7 @@ import React from "react";
 import service from "../assets/service.png";
 const Service = () => {
   return (
-    <div className="max-sm:h-16">
+    <div className="max-sm:h-16 hidden md:block">
       <img
         src={service}
         alt="Service banner"
