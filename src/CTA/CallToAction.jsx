@@ -2,13 +2,14 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <div className="hidden md:flex min-h-screen bg-white p-8  justify-center items-center">
+    <div className="md:flex min-h-screen bg-white p-8  justify-center items-center">
       <div className="max-w-7xl w-full flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-8 md:space-y-0">
         {/* Sales Team Section */}
         <div className="bg-[#FFD700] p-12 flex flex-col items-center justify-center text-center w-full md:w-1/2">
-          <h2 className="text-4xl md:text-4xl font-semibold mb-8 text-white max-w-md">
+          <h2 className="text-4xl md:text-4xl font-semibold mb-2 text-white max-w-md">
             Talk to a member of our sales team.
           </h2>
+          <p className="mb-7 text-white">+971506448596</p>
           <a href="tel:+971506448596">
             {/* <button className="bg-[#00A3E0] hover:bg-[#0093CC] cursor-pointer text-white font-semibold py-4 px-12 rounded-md text-xl transition-colors">
             CALL NOW
@@ -16,7 +17,7 @@ const CallToAction = () => {
             <div className="bg-green-500 border-2 border-black rounded-full p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5 text-black"
+                className="h-8 w-8 text-black"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -34,17 +35,18 @@ const CallToAction = () => {
 
         {/* Support Team Section */}
         <div className="bg-[#FFD700] p-12 flex flex-col items-center justify-center text-center w-full md:w-1/2">
-          <h2 className="text-4xl md:text-4xl font-semibold mb-8 text-white max-w-md">
+          <h2 className="text-4xl md:text-4xl font-semibold mb-2 text-white max-w-md">
             Chat to our customer sales/support team.
           </h2>
+          <p className="mb-7 text-white">+971506448524</p>
           <a href="https://wa.me/+971506448524">
             {/* <button className="bg-[#00A3E0] hover:bg-[#0093CC] cursor-pointer text-white font-semibold py-4 px-12 rounded-md text-xl transition-colors">
             CHAT NOW
           </button> */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="37"
-              height="37"
+              width="43"
+              height="43"
               viewBox="0 0 24 24"
               fill="none"
             >

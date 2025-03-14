@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Navigation Links (Always visible) */}
-        {/* <div className="md:hidden flex items-center ml-4 space-x-3 relative">
+        <div className="md:hidden flex items-center ml-4 space-x-3 relative">
           <a href="#" className="text-yellow-500 text-base">
             Home
           </a>
@@ -42,7 +42,7 @@ const Navbar = () => {
           <a href="#" className="text-gray-700 text-base">
             Contact Us
           </a>
-        </div> */}
+        </div>
 
         {/* Mobile Call Button (Always visible) */}
         <div className="md:hidden flex items-center ml-4">
