@@ -10,10 +10,11 @@ const World = () => {
         {/* Left side: Text content */}
         <div className="w-full md:w-1/2 mb-4 md:mb-0 relative text-center md:text-left">
           <h1 className="sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-6">
-            <span className="text-yellow-400">Seamless</span> <span>Cargo Shipping/Courier Service</span>
+            <span className="text-yellow-400">Seamless</span> <span>Cargo Shipping/</span>
+            <br />
+            <span>Courier Service</span>
             <br />
             Anywhere <span className="text-yellow-400">in the</span>
-            <br />
             <span className="text-yellow-400">World</span>
           </h1>
           <p className="text-[#787878] mb-8 text-base md:text-[15px] max-w-xl mx-auto md:mx-0 hidden md:block">
@@ -29,9 +30,9 @@ const World = () => {
         </div>
 
         {/* Right side: World Map - Made bigger for mobile */}
-        <div className="w-full md:w-2/3 relative scale-110 md:scale-100 mt-2 md:mt-0">
-          <Mapper />
-        </div>
+        <div className="w-full md:w-2/3 relative scale-110 md:scale-100 mt-2 md:mt-0 -ml-2 md:ml-0">
+  <Mapper />
+</div>
       </div>
       <div className="">
         <Service />

@@ -53,7 +53,7 @@ const LogisticsServices = () => {
         <img
           src={service.icon}
           alt={service.title}
-          className="w-16 h-20 object-contain mx-auto mb-2"
+          className="w-16 h-22 object-contain mx-auto mb-2"
         />
         <h3 className="text-sm font-semibold text-center">{service.title}</h3>
       </div>
@@ -130,7 +130,7 @@ const LogisticsServices = () => {
 
             {/* Third Row: 2 cards, centered */}
             <div className="flex justify-center w-full max-w-6xl">
-              <div className="grid grid-cols-2 gap-10 w-full md:w-2/3">
+              <div className="grid grid-cols-2 gap-10 w-full md:w-2/3 mb-0">
                 {services.slice(6, 8).map((service) => (
                   <DesktopServiceCard key={service.id} service={service} />
                 ))}
