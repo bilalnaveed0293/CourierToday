@@ -15,7 +15,7 @@ const World = () => {
             <span>Courier Service</span>
             <br />
             Anywhere <span className="text-yellow-400">in the</span>
-            <span className="text-yellow-400">World</span>
+            <span className="text-yellow-400"> World</span>
           </h1>
           <p className="text-[#787878] mb-8 text-base md:text-[15px] max-w-xl mx-auto md:mx-0 hidden md:block">
             At Courier Today by Goodwill Cargo, we specialize in fast, secure,{" "}
