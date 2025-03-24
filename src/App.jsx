@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -12,21 +13,46 @@ import AboutUs from "./AboutUs.jsx";
 import DeliverySuccessRate from "./Delivery/page.jsx";
 import PlansForm from "./Plans/PlansForm.jsx";
 import CallToAction from "./CTA/CallToAction.jsx";
+import PrivacyPolicy from "../src/Privacy Policy/PrivacyPolicy.jsx"; // Fixed import path
+import PrivacyNavbar from "./components/PrivacyNavbar.jsx"; // Added missing import
+
 function App() {
   return (
-    <div>
-      <Navbar />
-      <World />
-      
-      <Cards1 />
-      <CallToAction />
-      <Process />
-      <ServiceOptions />
-      <DeliverySuccessRate />
-      <PlansForm />
-      <AboutUs />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          {/* Main page route */}
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar />
+                <World />
+                <Cards1 />
+                <CallToAction />
+                <Process />
+                <ServiceOptions />
+                <DeliverySuccessRate />
+                <PlansForm />
+                <AboutUs />
+                <Footer />
+              </>
+            }
+          />
+          {/* Privacy Policy route */}
+          <Route
+            path="/privacy-policy"
+            element={
+              <>
+                <PrivacyNavbar />
+                <PrivacyPolicy />
+                <Footer />
+              </>
+            }
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

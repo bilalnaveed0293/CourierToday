@@ -2,11 +2,9 @@ import React from "react";
 
 const CallToAction = () => {
   const phoneNumbers = [
-    '+971569584073',
-    '+971562951575',
     '+971506448596',
     '+971506448524',
-    '+971506446940'
+    ' +971-4-2628523'
   ];
 
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import vector from "../assets/vector.png";
 
 const Footer = () => {
@@ -17,14 +18,24 @@ const Footer = () => {
 
           {/* Upward Arrow Button */}
           <a href="tel:+971506446940">
-          <button className="bg-white cursor-pointer rounded-full w-6 h-6 md:w-12 md:h-12 lg:w-14 lg:h-14 flex items-center justify-center hover:bg-gray-200 transition-colors">
-            <img
-              src={vector}
-              alt="Upward arrow icon"
-              className="w-3 md:w-8 lg:w-8"
-            />
-          </button>
+            <button className="bg-white cursor-pointer rounded-full w-6 h-6 md:w-12 md:h-12 lg:w-14 lg:h-14 flex items-center justify-center hover:bg-gray-200 transition-colors">
+              <img
+                src={vector}
+                alt="Upward arrow icon"
+                className="w-3 md:w-8 lg:w-8"
+              />
+            </button>
           </a>
+        </div>
+
+        {/* Privacy Policy Link */}
+        <div className="mt-4 text-center">
+          <Link
+            to="/privacy-policy"
+            className="text-white text-xs md:text-xl hover:underline"
+          >
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
