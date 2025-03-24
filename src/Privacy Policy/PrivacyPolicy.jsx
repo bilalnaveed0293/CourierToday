@@ -25,7 +25,6 @@ const PrivacyPolicy = () => {
                 <section className="mb-12 bg-white rounded-lg shadow-sm p-6">
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Introduction</h2>
                     <p className="text-gray-600 leading-relaxed">
-                        Goodwill Clearing and Forwarding Co. L.L.C operates UAE Couriers (uae-couriers.com).
                         This privacy policy outlines how we collect, use, and safeguard your personal
                         information when you use our services.
                     </p>
@@ -108,9 +107,7 @@ const PrivacyPolicy = () => {
                         For questions about this Privacy Policy or our data practices, please reach out:
                     </p>
                     <ul className="list-disc list-inside space-y-2 text-gray-600">
-                        <li>Email: privacy@uae-couriers.com</li>
                         <li>Phone: +971 50 644 6940</li>
-                        <li>Address: Goodwill Clearing and Forwarding Co. L.L.C, Dubai, UAE</li>
                     </ul>
                     <Link
                         to="/"

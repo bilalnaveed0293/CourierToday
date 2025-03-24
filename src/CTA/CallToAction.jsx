@@ -8,7 +8,7 @@ const CallToAction = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white p-4">
+    <div className="flex items-center justify-center min-h-96 bg-white">
       <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-6">Contact Us</h1>
@@ -43,8 +43,7 @@ const CallToAction = () => {
               </a>
             ))}
           </div>
-          
-          <h2 className="text-xl font-semibold">Sample Delivery</h2>
+
         </div>
       </div>
     </div>
