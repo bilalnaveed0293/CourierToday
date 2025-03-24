@@ -14,18 +14,18 @@ const World = () => {
             <br />
             <span>Courier Service</span>
             <br />
-            Anywhere <span className="text-yellow-400">in the</span>
+            Anywhere <span className="text-yellow-400">In The</span>
             <span className="text-yellow-400"> World</span>
           </h1>
           <p className="text-[#787878] mb-8 text-base md:text-[15px] max-w-xl mx-auto md:mx-0 hidden md:block">
-            At Courier Today by Goodwill Cargo, we specialize in fast, secure,{" "}
-            and cost-effective logistics solutions tailored to your needs. With
-            a legacy of excellence since 1976, we provide air, sea, and door-to-{" "}
-            door freight services worldwide.
+            At Courier Today By Goodwill Cargo, We Specialize In Fast, Secure,{" "}
+            And Cost-Effective Logistics Solutions Tailored To Your Needs. With
+            A Legacy Of Excellence Since 1976, We Provide Air, Sea, And Door-To-{" "}
+            Door Freight Services Worldwide.
           </p>
 
           <button className="bg-yellow-400 text-white px-8 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors mx-auto md:mx-0 hidden md:block">
-            Book a Call
+            Book A Call
           </button>
         </div>
 

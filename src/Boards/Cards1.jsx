@@ -10,15 +10,15 @@ import pic8 from "../assets/card/pic8.png";
 
 const LogisticsServices = () => {
   const services = [
-    { id: 1, title: "Air Freight / Courier Service", description: "Air transportation services for small to large packages, offering real-time tracking options with Reputed & Reliable Carriers. We understand the importance of timely & secure delivery of your cargo.", icon: pic1 },
-    { id: 2, title: "Sea freight", description: "Our company offers LCL (less-than-container load) & FCL (full-container load) services with highly reputable carriers that meet your requirements for competitive pricing and transit time.", icon: pic2 },
-    { id: 3, title: "Full GCC Coverage", description: "We Offer comprehensive Transportation solutions that include Air, Sea, and Road services across the United Arab Emirates, Bahrain, Oman, Kuwait, Saudi Arabia, and Qatar.", icon: pic3 },
-    { id: 4, title: "Import / Export Service", description: "We offer global shipping services for both domestic and commercial clients, facilitating transportation to and from the United Arab Emirates via Air- Sea.", icon: pic4 },
-    { id: 5, title: "DOOR TO DOOR WORLDWIDE", description: "Door-to-Door services cater to every aspect of your shipment, from origin to destination. We manage the entire logistics process with utmost care & attention.", icon: pic5 },
-    { id: 6, title: "Customs Clearance Service", description: "Our company offers efficient & reliable customs clearance services for both Air & Sea Ports throughout the UAE. Allow us to navigate the complex customs regulations.", icon: pic6 },
-    { id: 7, title: "Special Courier Rates", description: "North America (USA, Canada, Mexico), South America (Brazil, Argentina, Chile), Europe (Germany, France, UK, Spain, Italy), Asia, and Africa.", icon: pic7 },
-    { id: 8, title: "One Stop Solution", description: "We provide all-in-one logistics and shipping solutions for individuals and businesses. From small samples to commercial container loads, we handle it all.", icon: pic8 },
-  ];
+    { id: 1, title: "Air Freight / Courier Service", description: "Air Transportation Services For Small To Large Packages, Offering Real-Time Tracking Options With Reputed & Reliable Carriers. We Understand The Importance Of Timely & Secure Delivery Of Your Cargo.", icon: pic1 },
+    { id: 2, title: "Sea Freight", description: "Our Company Offers LCL (Less-Than-Container Load) & FCL (Full-Container Load) Services With Highly Reputable Carriers That Meet Your Requirements For Competitive Pricing And Transit Time.", icon: pic2 },
+    { id: 3, title: "Full GCC Coverage", description: "We Offer Comprehensive Transportation Solutions That Include Air, Sea, And Road Services Across The United Arab Emirates, Bahrain, Oman, Kuwait, Saudi Arabia, And Qatar.", icon: pic3 },
+    { id: 4, title: "Import / Export Service", description: "We Offer Global Shipping Services For Both Domestic And Commercial Clients, Facilitating Transportation To And From The United Arab Emirates Via Air-Sea.", icon: pic4 },
+    { id: 5, title: "DOOR TO DOOR WORLDWIDE", description: "Door-To-Door Services Cater To Every Aspect Of Your Shipment, From Origin To Destination. We Manage The Entire Logistics Process With Utmost Care & Attention.", icon: pic5 },
+    { id: 6, title: "Customs Clearance Service", description: "Our Company Offers Efficient & Reliable Customs Clearance Services For Both Air & Sea Ports Throughout The UAE. Allow Us To Navigate The Complex Customs Regulations.", icon: pic6 },
+    { id: 7, title: "Special Courier Rates", description: "North America (USA, Canada, Mexico), South America (Brazil, Argentina, Chile), Europe (Germany, France, UK, Spain, Italy), Asia, And Africa.", icon: pic7 },
+    { id: 8, title: "One Stop Solution", description: "We Provide All-In-One Logistics And Shipping Solutions For Individuals And Businesses. From Small Samples To Commercial Container Loads, We Handle It All.", icon: pic8 },
+];
 
   const [visibleContent, setVisibleContent] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -94,13 +94,12 @@ const LogisticsServices = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-around mb-8 md:mb-12 px-2 md:px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-black leading-tight max-w-[550px] mb-4 md:mb-0 text-center md:text-left">
-            Experience stress-free Shipping/Courier Service!
+            Experience Stress-Free Shipping/Courier Service!
           </h2>
           <div className="flex flex-row">
             <div className="h-28 w-0.5 bg-yellow-500 mx-4 hidden md:block"></div>
             <p className="text-gray-500 text-base md:text-lg mt-2 md:w-[550px] text-center md:text-left">
-              With a vast global network, we specialize in import/export services, customs clearance, and full GCC coverage, making international shipping effortless.
-            </p>
+            With A Vast Global Network, We Specialize In Import/Export Services, Customs Clearance, And Full GCC Coverage, Making International Shipping Effortless.            </p>
           </div>
         </div>
         
