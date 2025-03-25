@@ -1,5 +1,5 @@
 import React from "react";
-
+import Contact from "../assets/Contact.mp4";
 const CallToAction = () => {
   const phoneNumbers = [
     '+971506448596',
@@ -8,45 +8,84 @@ const CallToAction = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center min-h-96 bg-white">
-      <div className="bg-white rounded-lg p-8 w-full max-w-md">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold mb-6">Contact Us</h1>
-          
-          <div className="bg-orange-400 rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6">
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              className="h-12 w-12 text-white" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor"
-            >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" 
-              />
-            </svg>
-          </div>
-          
-          <h2 className="text-xl font-semibold mb-4">Sales Agents</h2>
-          
-          <div className="space-y-2 mb-6">
-            {phoneNumbers.map((number, index) => (
-              <a 
-                key={number} 
-                href={`tel:${number}`} 
-                className="block text-base text-black hover:bg-gray-100 p-2 rounded-md transition-colors"
-              >
-                {number}
-              </a>
-            ))}
-          </div>
+    <div className="flex items-center justify-center bg-white md:hidden block mb-8 mt-2">
+  <div className="flex items-center bg-white  max-w-4xl w-full">
+    
+    <div className="w-full">
+      <video 
+        src={Contact} 
+        autoPlay 
+        loop 
+        muted 
+        playsInline
+        className="w-full h-full object-cover"
+      />
+    </div>
 
+    <div className="w-[80%] pl-2">
+      <h2 className="text-1xl font-semibold mb-4">Contact Us</h2>
+      <div className="space-y-3">
+        <div>
+          <p className="text-lg font-semibold">Office Number:</p>
+          <a 
+            href="tel:+971506448596" 
+            className="text-lg font-semibold hover:text-blue-700"
+          >
+            +971 506 448 596
+          </a>
+        </div>
+        <div>
+          <p className="text-lg font-semibold">Sales Rep Number:</p>
+          <a 
+            href="tel:+971506448524" 
+            className="text-lg font-semibold hover:text-blue-700"
+          >
+            +971 506 448 524
+          </a>
         </div>
       </div>
     </div>
+  </div>
+</div>
+    // <div className="flex items-center justify-center min-h-96 bg-white">
+    //   <div className="bg-white rounded-lg p-8 w-full max-w-md">
+    //     <div className="text-center">
+    //       <h1 className="text-2xl font-bold mb-6">Contact Us</h1>
+          
+    //       <div className="bg-orange-400 rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6">
+    //         <svg 
+    //           xmlns="http://www.w3.org/2000/svg" 
+    //           className="h-12 w-12 text-white" 
+    //           fill="none" 
+    //           viewBox="0 0 24 24" 
+    //           stroke="currentColor"
+    //         >
+    //           <path 
+    //             strokeLinecap="round" 
+    //             strokeLinejoin="round" 
+    //             strokeWidth={2} 
+    //             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" 
+    //           />
+    //         </svg>
+    //       </div>
+          
+    //       <h2 className="text-xl font-semibold mb-4">Sales Agents</h2>
+          
+    //       <div className="space-y-2 mb-6">
+    //         {phoneNumbers.map((number, index) => (
+    //           <a 
+    //             key={number} 
+    //             href={`tel:${number}`} 
+    //             className="block text-base text-black hover:bg-gray-100 p-2 rounded-md transition-colors"
+    //           >
+    //             {number}
+    //           </a>
+    //         ))}
+    //       </div>
+
+    //     </div>
+    //   </div>
+    // </div>
     // <div className="md:flex min-h-screen bg-white p-8  justify-center items-center">
     //   <div className="max-w-7xl w-full flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-8 md:space-y-0">
     //     {/* Sales Team Section */}
