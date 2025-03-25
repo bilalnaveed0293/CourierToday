@@ -23,7 +23,7 @@ const CallToAction = () => {
     </div>
 
     <div className="w-[80%] pl-2">
-      <h2 className="text-1xl font-semibold mb-4">Contact Us</h2>
+      <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
       <div className="space-y-3">
         <div>
           <p className="text-lg font-semibold">Office Number:</p>
