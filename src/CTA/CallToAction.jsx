@@ -29,19 +29,16 @@ const CallToAction = () => {
           <p className="text-lg font-semibold">Office Number:</p>
           <a 
             href="tel:+971506448596" 
-            className="text-lg font-semibold hover:text-blue-700"
+            className="text-lg font-normal hover:text-blue-700"
           >
             +971 506 448 596
           </a>
         </div>
         <div>
           <p className="text-lg font-semibold">Sales Rep Number:</p>
-          <a 
-            href="tel:+971506448524" 
-            className="text-lg font-semibold hover:text-blue-700"
-          >
-            +971 506 448 524
-          </a>
+          <a href="tel:+971562951575" className="block hover:text-blue-700">+971-56-2951575</a>
+  <a href="tel:+971506448584" className="block hover:text-blue-700">+971-50-6448584</a>
+  <a href="tel:+971543220150" className="block hover:text-blue-700">+971-54-3220150</a>
         </div>
       </div>
     </div>
