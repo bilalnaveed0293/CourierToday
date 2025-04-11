@@ -4,7 +4,7 @@ import supportGif from './assets/supportGif.png';
 const ContactDesktop = () => {
   return (
     <div className="flex justify-center items-center mb-18 bg-white">
-      <div className="bg-yellow-400 p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-stretch max-w-[48rem] w-full space-y-6 md:space-y-0">
+      <div className="bg-[#F9D50B] p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-stretch max-w-[48rem] w-full space-y-6 md:space-y-0">
         
         {/* Left Side - Image */}
         <div className="flex-1 flex flex-col justify-center items-center text-center px-4">
