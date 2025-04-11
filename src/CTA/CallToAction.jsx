@@ -28,7 +28,7 @@ const CallToAction = () => {
             <div>
               <p className="text-lg font-semibold">Office Number:</p>
               <a
-                href="tel:+971506448596"
+                href="tel:+971-4-2628523"
                 className="text-lg font-normal hover:text-blue-700"
               >
                 +971-4-2628523
