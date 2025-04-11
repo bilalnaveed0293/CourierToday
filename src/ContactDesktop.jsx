@@ -3,7 +3,7 @@ import supportGif from './assets/supportGif.png';
 
 const ContactDesktop = () => {
   return (
-    <div className="flex justify-center items-center mb-18 bg-white">
+    <div className="flex justify-center items-center mb-18 bg-white max-sm:hidden block">
       <div className="bg-[#F9D50B] p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-stretch max-w-[48rem] w-full space-y-6 md:space-y-0">
         
         {/* Left Side - Image */}
