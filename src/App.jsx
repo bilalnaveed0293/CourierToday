@@ -12,6 +12,7 @@ import PlansForm from "./Plans/PlansForm.jsx";
 import CallToAction from "./CTA/CallToAction.jsx";
 import PrivacyPolicy from "../src/Privacy Policy/PrivacyPolicy.jsx";
 import PrivacyNavbar from "./components/PrivacyNavbar.jsx";
+import ContactDesktop from "./ContactDesktop.jsx";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <CallToAction />
                 <ServiceOptions />
                 <DeliverySuccessRate />
+                <ContactDesktop/>
                 <PlansForm />
                 <Footer />
               </>

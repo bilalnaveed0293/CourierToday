@@ -8,7 +8,7 @@ const CallToAction = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center bg-white md:hidden block mb-8 mt-2">
+    <div className="flex items-center justify-center bg-white  mb-8 mt-2 md:hidden block">
       <div className="flex items-center bg-white  max-w-4xl w-full">
 
         <div className="w-full">
