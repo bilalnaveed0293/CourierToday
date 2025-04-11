@@ -8,6 +8,7 @@ import pic6 from "../assets/card/pic6.png";
 import pic7 from "../assets/card/pic7.png";
 import pic8 from "../assets/card/pic8.png";
 
+
 const LogisticsServices = () => {
   const services = [
     { id: 1, title: "Air Freight / Courier Service", description: "Air Transportation Services For Small To Large Packages, Offering Real-Time Tracking Options With Reputed & Reliable Carriers. We Understand The Importance Of Timely & Secure Delivery Of Your Cargo.", icon: pic1 },

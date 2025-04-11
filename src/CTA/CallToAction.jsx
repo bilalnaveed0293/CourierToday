@@ -9,46 +9,46 @@ const CallToAction = () => {
 
   return (
     <div className="flex items-center justify-center bg-white md:hidden block mb-8 mt-2">
-  <div className="flex items-center bg-white  max-w-4xl w-full">
-    
-    <div className="w-full">
-      <video 
-        src={Contact} 
-        autoPlay 
-        loop 
-        muted 
-        playsInline
-        className="w-full h-full object-cover"
-      />
-    </div>
+      <div className="flex items-center bg-white  max-w-4xl w-full">
 
-    <div className="w-[80%] pl-2">
-      <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-      <div className="space-y-3">
-        <div>
-          <p className="text-lg font-semibold">Office Number:</p>
-          <a 
-            href="tel:+971506448596" 
-            className="text-lg font-normal hover:text-blue-700"
-          >
-          +971-4-2628523
-          </a>
+        <div className="w-full">
+          <video
+            src={Contact}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          />
         </div>
-        <div>
-          <p className="text-lg font-semibold">Sales Rep Number:</p>
-          <a href="tel:+971562951575" className="block hover:text-blue-700">+971-56-2951575</a>
-  <a href="tel:+971506448584" className="block hover:text-blue-700">+971-50-6448584</a>
-  <a href="tel:+971543220150" className="block hover:text-blue-700">+971-54-3220150</a>
+
+        <div className="w-[80%] pl-2">
+          <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+          <div className="space-y-3">
+            <div>
+              <p className="text-lg font-semibold">Office Number:</p>
+              <a
+                href="tel:+971506448596"
+                className="text-lg font-normal hover:text-blue-700"
+              >
+                +971-4-2628523
+              </a>
+            </div>
+            <div>
+              <p className="text-lg font-semibold">Sales Rep Number:</p>
+              <a href="tel:+971562951575" className="block hover:text-blue-700">+971-56-2951575</a>
+              <a href="tel:+971506448584" className="block hover:text-blue-700">+971-50-6448584</a>
+              <a href="tel:+971543220150" className="block hover:text-blue-700">+971-54-3220150</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
     // <div className="flex items-center justify-center min-h-96 bg-white">
     //   <div className="bg-white rounded-lg p-8 w-full max-w-md">
     //     <div className="text-center">
     //       <h1 className="text-2xl font-bold mb-6">Contact Us</h1>
-          
+
     //       <div className="bg-orange-400 rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6">
     //         <svg 
     //           xmlns="http://www.w3.org/2000/svg" 
@@ -65,9 +65,9 @@ const CallToAction = () => {
     //           />
     //         </svg>
     //       </div>
-          
+
     //       <h2 className="text-xl font-semibold mb-4">Sales Agents</h2>
-          
+
     //       <div className="space-y-2 mb-6">
     //         {phoneNumbers.map((number, index) => (
     //           <a 

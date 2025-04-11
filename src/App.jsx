@@ -30,7 +30,6 @@ function App() {
                 <ServiceOptions />
                 <DeliverySuccessRate />
                 <PlansForm />
-                <AboutUs />
                 <Footer />
               </>
             }

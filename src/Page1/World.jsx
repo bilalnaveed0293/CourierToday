@@ -9,7 +9,7 @@ const World = () => {
       <div className="mx-auto px-4 md:px-6 lg:pl-24 flex flex-col md:flex-row py-4 md:py-12 relative">
         {/* Left side: Text content */}
         <div className="w-full md:w-1/2 mb-4 md:mb-0 relative text-center md:text-left">
-          <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-6">
+          <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold">
             <span className="text-[#F9D50B]">Seamless</span> <span>Cargo Shipping/</span>
             <span>Courier Service</span>
             <br />
