@@ -25,10 +25,10 @@ const Navbar = () => {
 
         {/* Desktop CTA Buttons */}
         <div className="hidden md:flex items-center space-x-4 relative">
-          <button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+          <button className="bg-[#25D366] text-white px-4 py-2 rounded-lg hover:bg-green-600">
             WhatsApp
           </button>
-          <button className="bg-yellow-400 text-white px-4 py-2 rounded-lg hover:bg-yellow-500">
+          <button className="bg-[#F9D50B] text-white px-4 py-2 rounded-lg hover:bg-yellow-500">
             Call Us
           </button>
         </div>

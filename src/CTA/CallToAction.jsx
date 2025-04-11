@@ -31,7 +31,7 @@ const CallToAction = () => {
             href="tel:+971506448596" 
             className="text-lg font-normal hover:text-blue-700"
           >
-            +971 506 448 596
+          +971-4-2628523
           </a>
         </div>
         <div>

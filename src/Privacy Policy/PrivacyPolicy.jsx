@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -26,92 +26,60 @@ const PrivacyPolicy = () => {
             <div className="container mx-auto px-4 py-12">
                 {/* Introduction */}
                 <section className="mb-12 bg-white rounded-lg shadow-sm p-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Introduction</h2>
                     <p className="text-gray-600 leading-relaxed">
-                        This privacy policy outlines how we collect, use, and safeguard your personal
-                        information when you use our services.
+                        Copyright © 2025 UAE Couriers operating Under Goodwill Clearing & Forwarding Co. L.L.C - All Rights Reserved.<br /><br />
+
+                        Goodwill Clearing and Forwarding Co. L.L.C - Privacy Policy<br /><br />
+
+                        Goodwill Clearing and Forwarding Co. L.L.C operates the WEBSITE:
+                        <a href="http://courier-today.com" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer"> http://courier-today.com</a><br /><br />
+
+                        This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.<br /><br />
+
+                        We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
                     </p>
-                    <p className="text-gray-600 leading-relaxed mt-4">
-                        By using our service, you consent to the collection and use of information as
-                        described in this policy. We are committed to protecting your privacy and
-                        complying with applicable data protection laws.
-                    </p>
+
                 </section>
 
                 {/* Information We Collect */}
                 <section className="mb-12 bg-white rounded-lg shadow-sm p-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Information We Collect</h2>
-                    <p className="text-gray-600 mb-4">To provide and enhance our services, we collect:</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Information Collection and Use</h2>
+                    <p className="text-gray-600 mb-4">We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Types of Data Collected</h2>
+                    <p className="text-gray-600 mb-4">Personal Data: While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
                     <ul className="list-disc list-inside space-y-2 text-black [&>li::marker]:text-orange-600">
-                        <li>Full Name</li>
+                        <li>Name</li>
                         <li>Email Address</li>
                         <li>Phone Number</li>
-                        <li>Shipping And Billing Address</li>
-                        <li>Delivery Details</li>
-                        <li>Payment Information (Processed Securely Through Third-Party Providers)</li>
+                        <li>Address</li>
                     </ul>
                 </section>
 
                 {/* How We Use Your Information */}
                 <section className="mb-12 bg-white rounded-lg shadow-sm p-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">How We Use Your Information</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Use of Data</h2>
+                    <p className="text-gray-600 mb-4">We use the collected data for various purposes:</p>
                     <ul className="list-disc list-inside space-y-2 text-black [&>li::marker]:text-orange-600">
-                        <li>Providing And Maintaining Our Courier And Logistics Services</li>
-                        <li>Processing And Delivering Your Shipments</li>
-                        <li>Communicating With You About Your Shipments And Services</li>
-                        <li>Sending Service Updates And Administrative Messages</li>
-                        <li>Improving Our Services And Customer Experience</li>
-                        <li>Ensuring Compliance With Customs And Regulatory Requirements</li>
-                        <li>Preventing Fraud And Enhancing Security</li>
+                        <li>To provide and maintain our Service.</li>
+                        <li>To notify you about changes to our Service.</li>
+                        <li>To allow you to participate in interactive features of our Service when you choose to do so.</li>
+                        <li>To provide customer support.</li>
+                        <li>To gather analysis or valuable information so that we can improve our Service.</li>
+                        <li>To monitor the usage of our Service.</li>
+                        <li>To detect, prevent and address technical issues.</li>
+
                     </ul>
                 </section>
-
-                {/* Data Protection Measures */}
                 <section className="mb-12 bg-white rounded-lg shadow-sm p-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Data Protection Measures</h2>
-                    <div className="grid md:grid-cols-2 gap-6">
-                        <div className="bg-gray-100 p-4 rounded">
-                            <h3 className="font-bold text-gray-800 mb-2">Secure Storage</h3>
-                            <p className="text-gray-600">Advanced encryption and secure data storage systems</p>
-                        </div>
-                        <div className="bg-gray-100 p-4 rounded">
-                            <h3 className="font-bold text-gray-800 mb-2">Limited Access</h3>
-                            <p className="text-gray-600">Strictly controlled access to personal information</p>
-                        </div>
-                        <div className="bg-gray-100 p-4 rounded">
-                            <h3 className="font-bold text-gray-800 mb-2">Regular Updates</h3>
-                            <p className="text-gray-600">Continuous security assessments and improvements</p>
-                        </div>
-                        <div className="bg-gray-100 p-4 rounded">
-                            <h3 className="font-bold text-gray-800 mb-2">Staff Training</h3>
-                            <p className="text-gray-600">Ongoing privacy and security training for all staff</p>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Your Rights */}
-                <section className="mb-12 bg-white rounded-lg shadow-sm p-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Your Rights</h2>
-                    <p className="text-gray-600 mb-4">You have the following rights regarding your personal information:</p>
-                    <ul className="list-disc list-inside space-y-2 text-black [&>li::marker]:text-orange-600">
-                        <li>Access Your Personal Information</li>
-                        <li>Correct Inaccurate Information</li>
-                        <li>Request Deletion Of Your Information (Subject To Legal Obligations)</li>
-                        <li>Object To Certain Processing Of Your Information</li>
-                        <li>Receive A Copy Of Your Information In A Portable Format</li>
-                        <li>Withdraw Consent Where Processing Is Based On Consent</li>
-                    </ul>
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4"> Limit data Retention </h2>
+                    <p className="text-gray-600 mb-4">
+                        Only collect and retain customer information for as long as necessary to provide our services.
+                    </p>
                 </section>
 
                 {/* Contact Us */}
                 <section className="mb-12 bg-gray-100 p-6 rounded-lg">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
-                    <p className="text-gray-600 mb-4">
-                        For questions about this Privacy Policy or our data practices, please reach out:
-                    </p>
-                    <ul className="list-disc list-inside space-y-2 text-gray-600">
-                        <li>Phone: +971 50 644 6940</li>
-                    </ul>
+
                     <Link
                         to="/"
                         className="mt-4 inline-block text-orange-600 hover:text-orange-700 font-semibold"
@@ -121,11 +89,11 @@ const PrivacyPolicy = () => {
                 </section>
 
                 {/* Last Updated */}
-                
+
             </div>
 
             {/* Footer Note */}
-            
+
         </div>
     );
 };
