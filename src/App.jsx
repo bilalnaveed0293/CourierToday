@@ -50,7 +50,7 @@ function App() {
 
         {/* 🟢 Floating WhatsApp Icon */}
         <a
-          href="https://wa.me/971506448524"
+          href="https://wa.me/971506448584"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-4 right-4 z-50"
