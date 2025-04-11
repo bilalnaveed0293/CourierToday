@@ -5,7 +5,7 @@ const Process = () => {
     <div className="md:hidden">
       <div className="container mx-auto px-4 md:px-6 lg:pr-24 flex flex-row md:flex-row items-center md:justify-between lg:py-12  max-sm:justify-center max-sm:w-full">
         {/* Left side: Main headline */}
-        <div className="text-2xl md:text-4xl lg:text-5xl font-semibold lg:mb-6 text-black md:max-w-sm whitespace-normal max-sm:border-l-4 max-sm:pl-2">
+        <div className="text-2xl md:text-4xl lg:text-5xl font-semibold lg:mb-6 text-black md:max-w-sm whitespace-normal ">
           <p className="">Shipment Process</p>
         </div>
 
