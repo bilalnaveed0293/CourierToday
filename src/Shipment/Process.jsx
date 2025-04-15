@@ -25,7 +25,7 @@ const Process = () => {
         <img
           src={road}
           alt="Roadmap"
-          srcset=""
+          srcSet=""
           className="mx-auto p-6 md:p-0"
         />
       </div>

@@ -4,7 +4,7 @@ import map1 from "../assets/map1.png"
 const Mapper = () => {
   return (
   <div>
-      <img src={map1} alt="Worldmap" srcset="" className='w-full h-full' />
+      <img src={map1} alt="Worldmap" srcSet="" className='w-full h-full' />
       </div>
   )
 }
